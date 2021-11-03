@@ -545,14 +545,10 @@ letter-spacing: 0.15000000596046448px;
     min-height: 100%;
 }
 .practice-advise-template__body {
-    min-height: 100%;
-    flex-grow: 1;
     padding: 30px 30px 0px 30px;
     margin-bottom: 30px;
 }
 .practice-advise-template__title {
-    min-height: 100%;
-    flex-grow: 1;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
@@ -564,8 +560,6 @@ letter-spacing: 0.15000000596046448px;
 
 }
 .practice-advise-template__text {
-    min-height: 100%;
-    flex-grow: 1;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 500;
