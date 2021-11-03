@@ -535,6 +535,7 @@ letter-spacing: 0.15000000596046448px;
     flex: 1 1 25%;
     padding: 0 15px;
     min-width: 250px;
+    min-height: 100%;
 }
 .practice-advise-template__cover {
     display: flex;
@@ -550,6 +551,8 @@ letter-spacing: 0.15000000596046448px;
     margin-bottom: 30px;
 }
 .practice-advise-template__title {
+    min-height: 100%;
+    flex-grow: 1;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
@@ -561,6 +564,8 @@ letter-spacing: 0.15000000596046448px;
 
 }
 .practice-advise-template__text {
+    min-height: 100%;
+    flex-grow: 1;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 500;
@@ -574,7 +579,8 @@ letter-spacing: 0.15000000596046448px;
     display: flex;
     flex-grow: 1;
     min-height: 100%;
-    align-self: center;
+    align-items: flex-end;
+    justify-content: center;
 }
 .get-in-touch {
     background-color: #f3f3f3;
